@@ -731,7 +731,7 @@ class ExtendedImageCropLayerPainter extends CustomPainter {
   });
 
   /// The rect of crop layer
-  final Rect cropRect;
+  Rect cropRect;
 
   /// The size of corner shape
   final Size cornerSize;
